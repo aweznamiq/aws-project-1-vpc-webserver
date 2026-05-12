@@ -138,42 +138,43 @@ Verified website accessibility using the EC2 public IP address.
 VPC created
 <img width="1898" height="740" alt="VPC Overview" src="https://github.com/user-attachments/assets/6a936f43-2128-4d1e-95b1-f6af8aeb041c" />
 
-Subnet created
+### Subnet created
 <img width="1898" height="750" alt="Subnet Overview" src="https://github.com/user-attachments/assets/29f53da1-3ba2-4a84-a627-029b5a146b5c" />
 
-Internet Gateway attached
+### Internet Gateway attached
 <img width="1904" height="745" alt="Internet Gateway attached Overview" src="https://github.com/user-attachments/assets/fa6f5d0f-34bb-4ad2-960a-130f608b77c5" />
 
-Route table configured
+### Route table configured
 <img width="1908" height="739" alt="Route table Overview" src="https://github.com/user-attachments/assets/6c85a5f2-cf47-4c67-95e1-0d93b929c499" />
 
-Securit Group Created
+### Securit Group Created
 <img width="1903" height="747" alt="Security Group Overview" src="https://github.com/user-attachments/assets/0898de3c-2d92-44fc-97f7-aeb54d90b07f" />
-Inbound Rules
+### Inbound Rules
 <img width="1869" height="746" alt="Inbound Rules" src="https://github.com/user-attachments/assets/fbb5e6e9-8c9c-4983-8dfb-eba2f904ab6f" />
-Outbound Rules
+### Outbound Rules
 <img width="1849" height="352" alt="Outbound Rules" src="https://github.com/user-attachments/assets/30ab1b61-2a72-4f9a-9271-b30999146874" />
 
-EC2 Dashboard
+### EC2 Dashboard
 <img width="1908" height="442" alt="EC2-Dashboard" src="https://github.com/user-attachments/assets/810bd8d6-da0b-42a6-b3ea-6d07b38db099" />
-EC2 Instance Details
+### EC2 Instance Details
 <img width="1902" height="747" alt="EC2 Instance-Details" src="https://github.com/user-attachments/assets/2f1e760c-1a3d-47cc-a444-064299dcc3b2" />
-EC2 Networking
+### EC2 Networking
 <img width="1891" height="744" alt="EC2-Networking" src="https://github.com/user-attachments/assets/b686da6f-edc0-4d92-81df-f76472e6cc41" />
-EC2 Instance Connect Terminal
+### EC2 Instance Connect Terminal
 <img width="1916" height="619" alt="Appache install terminal" src="https://github.com/user-attachments/assets/4ec85e81-2ca5-4f19-993e-f5c23073a4f1" />
-Apache Status Running
+
+### Apache Status Running
 <img width="1914" height="610" alt="Apache status running" src="https://github.com/user-attachments/assets/e6b03940-6f91-4fff-a0ae-83e11fefc274" />
-Website in Browser
+### Website in Browser
 <img width="1473" height="423" alt="website-working" src="https://github.com/user-attachments/assets/c34df3b9-cc48-4cce-ae18-4a6ecfcb4d45" />
 
 
-Troubleshooting Experience
+## Troubleshooting Experience
 
 EC2 Connectivity Issue
 Problem: Unable to connect using EC2 Instance Connect.
 
-Resolution:
+### Resolution:
 
 Verified public IP assignment
 Verified route table configuration
@@ -181,14 +182,15 @@ Verified Security Group SSH rules
 Website Access Issue
 Problem: Browser returned Gateway Timeout.
 
-Resolution:
+### Resolution:
 
 Verified Apache status
 Verified HTTP inbound rule
 Verified local Apache response using curl localhost
 
 
-Lessons Learned
+## Lessons Learned
+
 AWS Networking Fundamentals
 Learned how a Virtual Private Cloud (VPC) provides an isolated network environment in AWS.
 Understood how subnets divide a VPC into smaller network segments.
@@ -230,8 +232,9 @@ Portfolio and Professional Development
 Built a fully documented cloud project suitable for a technical portfolio.
 Gained practical hands-on AWS experience beyond certification study.
 Improved confidence working with AWS networking, Linux administration, and infrastructure troubleshooting.
--## Key Skills Demonstrated
 
+
+### Key Skills Demonstrated
 
 AWS Networking
 VPC Configuration
