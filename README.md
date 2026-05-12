@@ -21,6 +21,7 @@ Public subnet hosts the EC2 instance.
 Security group controls access to the server
 
 ##Diagram
+
                     Internet
                         │
                         ▼
@@ -167,6 +168,76 @@ Website in Browser
 <img width="1473" height="423" alt="website-working" src="https://github.com/user-attachments/assets/c34df3b9-cc48-4cce-ae18-4a6ecfcb4d45" />
 
 
+Troubleshooting Experience
+EC2 Connectivity Issue
+Problem: Unable to connect using EC2 Instance Connect.
+
+Resolution:
+
+Verified public IP assignment
+Verified route table configuration
+Verified Security Group SSH rules
+Website Access Issue
+Problem: Browser returned Gateway Timeout.
+
+Resolution:
+
+Verified Apache status
+Verified HTTP inbound rule
+Verified local Apache response using curl localhost
+
+Lessons Learned
+AWS Networking Fundamentals
+Learned how a Virtual Private Cloud (VPC) provides an isolated network environment in AWS.
+Understood how subnets divide a VPC into smaller network segments.
+Learned the difference between public and private networking concepts.
+Internet Connectivity
+Learned how an Internet Gateway enables communication between AWS resources and the internet.
+Understood how route tables control traffic flow inside a VPC.
+Learned that a subnet becomes public only when:
+it has a route to the Internet Gateway
+resources inside it have public IP addresses.
+Security and Access Control
+Learned how Security Groups function as virtual firewalls for EC2 instances.
+Implemented secure SSH access by restricting port 22 access to my own IP address.
+Learned why HTTP traffic must be publicly allowed for web applications.
+EC2 and Compute Services
+Learned how to launch and configure EC2 instances inside a custom VPC.
+Understood how EC2 instances interact with subnets, route tables, and security groups.
+Learned the importance of assigning public IP addresses for internet accessibility.
+Linux and Web Server Administration
+Installed and configured the Apache HTTP Server (httpd) on Amazon Linux.
+Learned how to manage Linux services using systemctl.
+Created and hosted a basic web page using Apache.
+Troubleshooting and Problem Solving
+Troubleshot EC2 connectivity issues related to:
+public IP assignment
+security group configuration
+route table configuration
+Diagnosed web accessibility issues by validating:
+Apache service status
+local web server response using curl localhost
+security group HTTP rules.
+Learned the importance of validating infrastructure layer by layer during troubleshooting.
+Cloud Engineering Best Practices
+Learned the importance of documenting infrastructure projects professionally.
+Organized project files, screenshots, diagrams, and notes using GitHub.
+Understood how architecture diagrams improve infrastructure documentation.
+Practiced infrastructure validation and iterative troubleshooting similar to real cloud engineering workflows.
+Portfolio and Professional Development
+Built a fully documented cloud project suitable for a technical portfolio.
+Gained practical hands-on AWS experience beyond certification study.
+Improved confidence working with AWS networking, Linux administration, and infrastructure troubleshooting.
+-## Key Skills Demonstrated
+
+AWS Networking
+VPC Configuration
+EC2 Deployment
+Linux Administration
+Apache Web Server Configuration
+Security Group Management
+Infrastructure Troubleshooting
+Cloud Documentation
 
 
 
