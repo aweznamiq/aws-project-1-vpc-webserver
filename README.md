@@ -169,6 +169,7 @@ Website in Browser
 
 
 Troubleshooting Experience
+
 EC2 Connectivity Issue
 Problem: Unable to connect using EC2 Instance Connect.
 
@@ -185,6 +186,7 @@ Resolution:
 Verified Apache status
 Verified HTTP inbound rule
 Verified local Apache response using curl localhost
+
 
 Lessons Learned
 AWS Networking Fundamentals
@@ -229,6 +231,7 @@ Built a fully documented cloud project suitable for a technical portfolio.
 Gained practical hands-on AWS experience beyond certification study.
 Improved confidence working with AWS networking, Linux administration, and infrastructure troubleshooting.
 -## Key Skills Demonstrated
+
 
 AWS Networking
 VPC Configuration
